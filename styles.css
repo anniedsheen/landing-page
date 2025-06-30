@@ -69,7 +69,7 @@ nav a {
     max-width: 110px;
     text-align: center;
     text-decoration: none;
-    background-color: #7d502d;
+    background-color: #746c54;
     color: white;
     font-weight: bold;
     padding: 15px;
@@ -96,7 +96,7 @@ nav a {
         .item img {
             /* max-width: 150px; */
             border-radius: 20px;
-            border: #e7b98c solid 6px;
+            border: #e7b98c solid 4px;
             margin-bottom: 20px;
         }
 
