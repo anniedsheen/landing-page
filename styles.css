@@ -89,6 +89,7 @@ nav a {
 
     .menu-items{
         display: flex;
+        justify-content: center;
         gap: 120px;
         margin: 30px;
         flex-wrap: wrap;
@@ -132,11 +133,51 @@ nav a {
         .quote {
             font: italic 300 36px "roboto";
             color:rgb(58, 57, 57);
+            margin-bottom: 20px;
         }
 
         .author {
             align-self: end;
+            font-weight: bold;
         }
     }
+}
 
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cta-banner {
+        display: flex;
+        align-items: center;
+        background-color: #746c54;
+        max-width: 800px;
+        padding: 20px 30px;
+        margin: 50px;
+        color: azure;
+        border-radius: 12px;
+        gap: 30px;
+
+        button {
+            all: unset;
+            border: 2px solid azure;
+            padding: 9px 10px;
+            border-radius: 10px;
+            max-height: 35px;
+        }
+
+        .cta-text {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
