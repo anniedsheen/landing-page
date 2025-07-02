@@ -116,3 +116,27 @@ nav a {
         }
     }
 }
+
+.quote-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0cbbd;
+    min-height: 150px;
+    padding: 15px;
+    
+    .quote-content {
+    display: flex;
+    flex-direction: column;
+
+        .quote {
+            font: italic 300 36px "roboto";
+            color:rgb(58, 57, 57);
+        }
+
+        .author {
+            align-self: end;
+        }
+    }
+
+}
